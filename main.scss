@@ -879,7 +879,7 @@ html{
         #slides{
             background: #fff;
             position: relative;
-            height: 100vh; 	
+            height: 90vh; 	
             z-index: 1;
             width: 100%;
             padding: 5px;
@@ -978,7 +978,7 @@ html{
             background: url('Right-Arrow-PNG-Transparent-Picture.png')no-repeat center;
             background-size: cover;
             float: right;
-            margin-top: -150px;
+            margin-top: -200px;
             display: block;
             height: 50px;
             width: 50px;
@@ -991,7 +991,7 @@ html{
             background: url('left-Arrow-PNG-Transparent-Picture\ 1.png') center;
             background-size: cover;
             float: left;
-            margin-top: -150px;
+            margin-top: -200px;
             display: block;
             height: 50px;
             width: 50px;
@@ -1173,6 +1173,8 @@ html{
                 ul{
                     display: flex;
                     align-items: center;
+                    justify-content: space-between;
+                    width: 60px;
                     gap: 1em;
                     margin-top: 0;
          
